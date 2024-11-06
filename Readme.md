@@ -67,7 +67,7 @@ Therefore, we always have enough credit to pay for resizing.
 
 Both methods demonstrate that while a single operation might take O(n) time in the worst case (during resize), the amortized cost per operation is O(1). This makes dynamic arrays very efficient for most practical purposes.
 
-### Key Takeaways
+### Takeaways
 1. Individual operations can be expensive (O(n))
 2. The expensive operations occur so infrequently that the average cost remains constant
 3. The total cost for n operations is O(n)
